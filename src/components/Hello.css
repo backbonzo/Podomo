@@ -1,0 +1,17 @@
+:not(input):not(textarea),
+:not(input):not(textarea)::after,
+:not(input):not(textarea)::before {
+    -webkit-user-select: none; /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;
+    cursor: default;
+
+}
+input, button, textarea, :focus {
+    outline: none;
+}
+
+.Test {
+	color: red;
+}
