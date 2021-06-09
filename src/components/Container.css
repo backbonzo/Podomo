@@ -5,12 +5,16 @@
     justify-content: center;
     cursor: pointer;
     width: fit-content;
-    margin: auto;
 }
 
+.container .listTtile{
+    margin: 0;
+   }
+
 .container svg{
-    margin-top: auto;
+ /*   margin-top: auto;
     margin-bottom: auto;
+*/
     padding: 4px 4px 0 0;
     color: white;
     min-width: 25px;
