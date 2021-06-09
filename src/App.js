@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Hello from './components/Hello';
+import Container from './components/Container';
 
 function App() {
   return (
     <div className="App">
       <Hello mate="Muthafucka"/>
+      <Container title="To do"/>
     </div>
   );
 }

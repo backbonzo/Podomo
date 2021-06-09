@@ -69,6 +69,7 @@ app.whenReady().then(() => {
   splash = new BrowserWindow({ width: 810, height: 610, transparent: true, frame: false, alwaysOnTop: true, center: true });
   splash.loadURL(`file://${__dirname}/splash.html`);
   win.loadURL("http://localhost:3000")
+  win.removeMenu()
   setTimeout(() => {
   }, 20000);
 

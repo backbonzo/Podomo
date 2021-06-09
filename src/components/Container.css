@@ -1,0 +1,25 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: fit-content;
+    margin: auto;
+}
+
+.container svg{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 4px 4px 0 0;
+    color: white;
+    min-width: 25px;
+    min-height: 25px;
+    cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+/* in container selects all elements inside svg and turns cursor to pointer */
+.container svg * {
+    cursor: pointer;
+}
